@@ -1,16 +1,14 @@
 major update 1 :
-- build for pc for all login in browsers 
-
-major update 2 :
-- build for android to login and remember all password of emails and websites 
-
 - generate pass
 	to be able to select diffentent type to genetrate like small letter , cap letter , sysbols etc 
 
 
-- remember pass
-	search for site 
+major update 2 :
+1 detect site amd prompt if data [user\pass] available
+	- look at the parameter and detect the website and check if we have that data then suggest the login 
 
-- login when required for email 
+2 after login if possible save data in database [ dont know yet how it will be done]
 
-- look at the parameter and detect the website and check if we have that data then suggest the login 
+
+scale to android when its done
+- build for android to login and remember all password of emails and websites 
